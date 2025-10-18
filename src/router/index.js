@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomePage from '../pages/HomePage.vue'
-import MiniGame from '../components/MiniGame.vue'
+import SnakeGamePage from '../pages/SnakeGamePage.vue'
 
 // Aquí definimos las rutas de la app
 const routes = [
@@ -12,7 +12,7 @@ const routes = [
   {
     path:'/game',
     name:'minigame',
-    component: MiniGame
+    component: SnakeGamePage
   }
 ]
 

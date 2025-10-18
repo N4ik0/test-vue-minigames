@@ -19,7 +19,7 @@
     <section>
       <button @click="goToMinigame">ir al juego</button>
       <div>
-        <!--<MiniGame/>-->
+        <SnakeGamePage/>
       </div>
     </section>
   </main>
@@ -28,6 +28,7 @@
 <script setup>
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
+import SnakeGamePage from './SnakeGamePage.vue'
 //import MiniGame from '../components/MiniGame.vue'
 
 const router = useRouter()
